@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Gun Violence in Chicago"
+  navbar:
+    background: dark
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: "Letter"
+        href: https://observablehq.com/d/8f1e42ae7d067b78 
+      - text: "Data"
+        href: data.qmd 
+      
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+editor: visual
+
