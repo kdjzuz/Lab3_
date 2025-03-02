@@ -17,7 +17,7 @@ website:
       
 format:
   html:
-    theme: yeti
+    theme: jekyll-theme-slate
     css: styles.css
     toc: true
 
